@@ -117,6 +117,8 @@ function s:getDistro()
       let s:distro = ''
     elseif s:lsb =~# 'Dock'
       let s:distro = ''
+    elseif s:lsb =~# 'NixOS'
+      let s:distro = ''
     else
       let s:distro = ''
     endif
